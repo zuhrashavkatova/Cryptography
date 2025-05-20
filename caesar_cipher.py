@@ -1,7 +1,7 @@
 # # 🔐 Caesar cipher (Gaius Julius Caesar) Sezar shifriga Yuliy Sezar nomi berilgan
 # # U alifbodan foydalangan, bunda shifrni ochish uchta harfni chapga siljitadi.
 
-# # 🔑 
+# # 🔑 encryption
 # text = "hello"
 # shift = 3
 # ciphertext = 'khoor'
@@ -22,7 +22,7 @@
 #             result += i
 #     print(result)     
 
-# # 🔓
+# # 🔓Decryption
 # def ceaser_dec(ciphertext, shift):
 #     result = ""
 #     for i in ciphertext:
@@ -44,7 +44,7 @@
 # ceaser_dec(ciphertext, shift)
 
 
-
+# 🔑 encryption
 def caesar_encrypt(text, shift):
     result = ""
     for char in text:
@@ -57,6 +57,7 @@ def caesar_encrypt(text, shift):
 
 print(caesar_encrypt("HELLO", 3))
 
+# 🔓Decryption
 def caesar_decrypt_all(cipher_text):
     for shift in range(26):
         decrypted = ""
