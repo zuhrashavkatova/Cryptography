@@ -9,3 +9,4 @@ Bu loyiha Python dasturlash tilida turli shifrlash (encryption) va deshifrlash (
 2. **🔐 Classical Encryption – Caesar Cipher**
 3. **🔐 Asymmetric Encryption – RSA (Rivest–Shamir–Adleman)**
 4. **🖥️ GUI – Tkinter orqali AES shifrlash ilovasi**
+5. **🔐 Hashing Tool in Python -  MD5, SHA1, va SHA256 hashing algoritmlari yordamida**
