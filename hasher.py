@@ -1,3 +1,5 @@
+# 🔐 Hashing Tool in Python. Bu oddiy CLI ilova foydalanuvchidan matn qabul qilib, MD5, SHA1, va SHA256 hashing algoritmlari yordamida natijalarni chiqaradi.
+
 import hashlib
 
 def hash_text(text, algorithm='sha256'):
